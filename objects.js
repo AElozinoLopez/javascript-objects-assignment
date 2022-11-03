@@ -12,3 +12,9 @@ function showAddress(address) {
 }
 
 showAddress(address);
+
+
+
+
+// Exercise 2
+
