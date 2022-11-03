@@ -23,14 +23,26 @@ const address = {
     zipcode: 23423
 }
 
-// factory function
-function showAddress(street, city, zipcode) {
-    return {
-        street,
-        city,
-        zipcode
-    }
+// using factory function
+// function showAddress(street, city, zipcode) {
+//     return {
+//         street,
+//         city,
+//         zipcode
+//     }
+// }
+
+// const myAddress = showAddress('20 Afolabi Street Okota', 'lagos',  23423);
+
+// console.log(myAddress);
+
+
+// using constructor function
+function showAddress (street, city, zipcode) {
+    this.street = street;
+    this.city = city;
+    this.zipcode = zipcode;
 }
 
-const myAddress = showAddress('20 Afolabi Street Okota', 'lagos',  23423);
-// console.log(myAddress);
+const myAddress = new showAddress('20 Afolabi Street Okota', 'lagos',  23423);
+console.log(myAddress);
