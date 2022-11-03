@@ -38,11 +38,11 @@ const address = {
 
 
 // using constructor function
-function showAddress (street, city, zipcode) {
+function ShowAddress (street, city, zipcode) {
     this.street = street;
     this.city = city;
     this.zipcode = zipcode;
 }
 
-const myAddress = new showAddress('20 Afolabi Street Okota', 'lagos',  23423);
+const myAddress = new ShowAddress('20 Afolabi Street Okota', 'lagos',  23423);
 console.log(myAddress);
