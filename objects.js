@@ -1,20 +1,36 @@
 // Exercise 1
+// const address = {
+//     street: '20 Afolabi Street Okota',
+//     city: 'lagos',
+//     zipcode: 23423
+// }
+
+// function showAddress(address) {
+//     for (let key in address) {
+//         console.log(key, ' : ' , address[key]);
+//     }
+// }
+
+// showAddress(address);
+
+
+
+
+// Exercise 2
 const address = {
     street: '20 Afolabi Street Okota',
     city: 'lagos',
     zipcode: 23423
 }
 
-function showAddress(address) {
-    for (let key in address) {
-        console.log(key, ' : ' , address[key]);
+// factory function
+function showAddress(street, city, zipcode) {
+    return {
+        street,
+        city,
+        zipcode
     }
 }
 
-showAddress(address);
-
-
-
-
-// Exercise 2
-
+const myAddress = showAddress('20 Afolabi Street Okota', 'lagos',  23423);
+// console.log(myAddress);
