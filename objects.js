@@ -7,9 +7,8 @@ const address = {
 
 function showAddress(address) {
     for (let key in address) {
-        console.log(key, address[key]);
+        console.log(key, ' : ' , address[key]);
     }
 }
 
 showAddress(address);
-// console.log(address);
