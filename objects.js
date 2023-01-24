@@ -1,3 +1,5 @@
+// All Exercises are captured in the index.html page for easy reference.
+
 // Exercise 1
 // const address = {
 //     street: '20 Afolabi Street Okota',
@@ -17,11 +19,11 @@
 
 
 // Exercise 2
-const address = {
-    street: '20 Afolabi Street Okota',
-    city: 'lagos',
-    zipcode: 23423
-}
+// const address = {
+//     street: '20 Afolabi Street Okota',
+//     city: 'lagos',
+//     zipcode: 23423
+// }
 
 // using factory function
 // function showAddress(street, city, zipcode) {
@@ -33,11 +35,22 @@ const address = {
 // }
 
 // const myAddress = showAddress('20 Afolabi Street Okota', 'lagos',  23423);
-
 // console.log(myAddress);
 
 
 // using constructor function
+// function ShowAddress (street, city, zipcode) {
+//     this.street = street;
+//     this.city = city;
+//     this.zipcode = zipcode;
+// }
+
+// const myAddress = new ShowAddress('20 Afolabi Street Okota', 'lagos',  23423);
+// console.log(myAddress);
+
+
+
+// Exercise 3
 function ShowAddress (street, city, zipcode) {
     this.street = street;
     this.city = city;
