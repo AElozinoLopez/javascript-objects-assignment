@@ -68,7 +68,7 @@ const address2 = new ShowAddress('3 Jubrila Street, Surulere', 'Lagos',  234567)
 // Funtion1
 
 function areEqual(address1, address2) {
-   address1 === address2 ? true : false
+   
 }
-// Using Lodash
-_.isEqual(k1, k2);
+// // Using Lodash
+// _.isEqual(k1, k2);  //Just checking 
