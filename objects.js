@@ -63,12 +63,24 @@ const address1 = new ShowAddress('57 Tapa Street Surulere', 'Lagos',  123456);
 // The second address
 const address2 = new ShowAddress('3 Jubrila Street, Surulere', 'Lagos',  234567);
 
-// console.log(address1);
 
 // Funtion1
 
 function areEqual(address1, address2) {
-    _.isEqual(address1, address2);
+    const keys1 = Object.keys(address11);
+    const keys2 = Object.keys(address2);
+    if (keys1.length !== keys2.length) {
+      return false;
+    }
+    for (let key of keys1) {
+      if (address1[key] !== address2[key]) {
+        return false;
+      }
+    }
+    return true;
+  
 }
-// // Using Lodash
-  //Just checking 
+
+areEqual(address1, address2);
+// Using Lodash
+// _.isEqual(address1, address2);  //Just checking 
