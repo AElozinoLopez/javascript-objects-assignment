@@ -59,3 +59,6 @@ function ShowAddress (street, city, zipcode) {
 
 // The first address
 const address1 = new ShowAddress('57 Tapa Street Surulere', 'Lagos',  123456);
+
+// The second address
+const address2 = new ShowAddress('3 Jubrila Street, Surulere', 'Lagos',  234567);
