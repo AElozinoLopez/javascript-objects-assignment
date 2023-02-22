@@ -1,11 +1,11 @@
 // All Exercises are captured in the index.html page for easy reference.
 
 // Exercise 1
-// const address = {
-//     street: '20 Afolabi Street Okota',
-//     city: 'lagos',
-//     zipcode: 23423
-// }
+const address = {
+    street: '20 Afolabi Street Okota',
+    city: 'lagos',
+    zipcode: 23423
+}
 
 // function showAddress(address) {
 //     for (let key in address) {
@@ -34,7 +34,7 @@
 //     }
 // }
 
-// const myAddress = showAddress('20 Afolabi Street Okota', 'lagos',  23423);
+// const myAddress = showAddress('20 Afolabi Street Okota', 'Lagos',  23423);
 // console.log(myAddress);
 
 
