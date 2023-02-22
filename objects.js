@@ -57,5 +57,5 @@ function ShowAddress (street, city, zipcode) {
     this.zipcode = zipcode;
 }
 
-const myAddress = new ShowAddress('20 Afolabi Street Okota', 'lagos',  23423);
-console.log(myAddress);
+// The first address
+const address1 = new ShowAddress('57 Tapa Street Surulere', 'Lagos',  123456);
