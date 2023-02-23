@@ -88,9 +88,10 @@ const address2 = new ShowAddress('3 Jubrila Street, Surulere', 'Lagos',  234567)
 //FUnction2 - areSame
 
 function areSame(address1, address2) {
-  let address1 === address2 ? true : false;
+  return ( address1 === address2 ? true : false);
 }
 
 console.log(areSame(address1, address2));
+
 
 
