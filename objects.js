@@ -131,6 +131,7 @@ let programming = {
   jokes:"http://stackoverflow.com/questions/234075/what-is-your-best-programmer-joke"
 }
 
+programming.languages = "Go";
 for (let key in programming) {
   console.log(programming[key]);
 }
