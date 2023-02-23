@@ -115,8 +115,10 @@ const blogPost = {
   isLive: "False"
 }
 
-for (let key in blogPost)
-console.log(blogPost[key]);
+for (let key in blogPost) {
+  console.log(blogPost[key]);
+}
+
 
 
 // EXERCISE 5
