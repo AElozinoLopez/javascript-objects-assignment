@@ -106,10 +106,11 @@ const blogPost = {
   author: "Elozino Lopez",
   views: 4000000,
   comments : {
+    
     author: "Shapson",
     body: "Nice piece. Which flower detoxifies?",
-    author: "Faruq",
-    body: "Bros, leave flower alone abeg, you no be oyinbo! lol..."
+    // author: "Faruq",  // Has to be placed in another object
+    // body: "Bros, leave flower alone abeg, you no be oyinbo! lol..." // Has to be placed in another object
   },
   isLive: "False"
 }
