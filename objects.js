@@ -64,27 +64,33 @@ const address1 = new ShowAddress('57 Tapa Street Surulere', 'Lagos',  123456);
 const address2 = new ShowAddress('3 Jubrila Street, Surulere', 'Lagos',  234567);
 
 
-// Funtion1
+// Funtion1 - areEqual
 
-function areEqual(address1, address2) {
-    const keys1 = Object.keys(address1);
-    const keys2 = Object.keys(address2);
+// function areEqual(address1, address2) {
+//     const keys1 = Object.keys(address1);
+//     const keys2 = Object.keys(address2);
 
-    if (keys1.length !== keys2.length) {
-      return false;
-    }
-    for (let key of keys1) {
-      if (address1[key] !== address2[key]) {
-        console.log(false);
-      }
-      else {
-        console.log(true);
-      }
-    }
+//     if (keys1.length !== keys2.length) {
+//       return false;
+//     }
+//     for (let key of keys1) {
+//       if (address1[key] !== address2[key]) {
+//         console.log(false);
+//       }
+//       else {
+//         console.log(true);
+//       }
+//     }
+// }
+
+// areEqual(address1, address2);
+
+//FUnction2 - areSame
+
+function areSame(address1, address2) {
+  let address1 === address2 ? true : false;
 }
 
-
-
-
+console.log(areSame(address1, address2));
 
 
