@@ -107,9 +107,9 @@ const blogPost = {
   views: 4000000,
   comments : {
     author: "Shapson",
-    boby: "Nice piece. Which flower detoxifies?",
-    // author: "Faruq",
-    // body: "Bros, leave flower alone abeg, you no be oyinbo! lol..."
+    body: "Nice piece. Which flower detoxifies?",
+    author: "Faruq",
+    body: "Bros, leave flower alone abeg, you no be oyinbo! lol..."
   },
   isLive: "False"
 }
