@@ -98,14 +98,17 @@ const address2 = new ShowAddress('3 Jubrila Street, Surulere', 'Lagos',  234567)
 // EXERCISE4
 
 const blogPost = {
-  title: "The Beauty of Flowers"
+  title: "The Beauty of Flowers",
   body: `FLowers come in variety of shapes, colors and sizes.
           Their functions vary from improving the quality of
           the air around us as well as detoxifying the environment,
-          to name a few. Examples include: Snake plant, Dunkin, Cudlin, African Bamble.`
-  author: "Elozino Lopez"
-  views: 4000000
-  comments:
+          to name a few. Examples include: Snake plant, Dunkin, Cudlin, African Bamble.`,
+  author: "Elozino Lopez",
+  views: 4000000,
+  comments : {
+    author: "Shapson",
+    boby: "Nice piece. Which flower detoxifies?"
+  }
 }
 
 
