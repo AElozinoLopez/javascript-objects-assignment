@@ -108,8 +108,8 @@ const blogPost = {
   comments : {
     author: "Shapson",
     boby: "Nice piece. Which flower detoxifies?",
-    author: "Faruq",
-    body: "Bros, leave flower alone abeg, you no be oyinbo! lol..."
+    // author: "Faruq",
+    // body: "Bros, leave flower alone abeg, you no be oyinbo! lol..."
   },
   isLive: "False"
 }
