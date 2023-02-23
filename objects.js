@@ -67,8 +67,9 @@ const address2 = new ShowAddress('3 Jubrila Street, Surulere', 'Lagos',  234567)
 // Funtion1
 
 function areEqual(address1, address2) {
-    const keys1 = Object.keys(address11);
+    const keys1 = Object.keys(address1);
     const keys2 = Object.keys(address2);
+
     if (keys1.length !== keys2.length) {
       return false;
     }
