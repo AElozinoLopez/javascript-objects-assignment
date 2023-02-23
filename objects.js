@@ -137,6 +137,9 @@ programming.languages[3] = "Go";
 // Changing the diffulty to the value of 7
 programming.difficulty = 7;
 
+// Using the delete keyword
+delete programming.jokes
+
 for (let key in programming) {
   console.log(programming[key]);
 }
