@@ -83,7 +83,8 @@ function areEqual(address1, address2) {
     }
 }
 
-areEqual(address1, address2);
 
-// Using Lodash
-// _.isEqual(address1, address2);  //Just checking 
+
+
+
+
