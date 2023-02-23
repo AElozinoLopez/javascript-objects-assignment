@@ -134,6 +134,9 @@ let programming = {
 // Adding The Word "GO" To Languages
 programming.languages[3] = "Go";
 
+// Changing the diffulty to the value of 7
+programming.difficulty = 7;
+
 for (let key in programming) {
   console.log(programming[key]);
 }
