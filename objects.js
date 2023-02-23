@@ -114,7 +114,19 @@ const blogPost = {
   isLive: "False"
 }
 
-console.log(blogPost);
+for (let key in blogPost)
+console.log(blogPost[key]);
+
+
+// EXERCISE 5
+
+// let programming = {
+//   languages: ["JavaScript", "Python", "Ruby"],
+//   isChallenging: true,
+//   isRewarding: true,
+//   difficulty: 8,
+//   jokes:"http://stackoverflow.com/questions/234075/what-is-your-best-programmer-joke"
+// }
 
 
 
