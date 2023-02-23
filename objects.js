@@ -144,8 +144,8 @@ delete programming.jokes
 programming.isFun = "True";
 
 // v. Looping Over The Array
-for (let index of languages) {
-  console.log(languages);
+for (let Language of languages) {
+  console.log(languages)
 }
 
 // for (let key in programming) {
