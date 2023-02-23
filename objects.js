@@ -75,13 +75,15 @@ function areEqual(address1, address2) {
     }
     for (let key of keys1) {
       if (address1[key] !== address2[key]) {
-        return false;
+        console.log(false);
+      }
+      else {
+        console.log(true);
       }
     }
-    return true;
-  
 }
 
 areEqual(address1, address2);
+
 // Using Lodash
 // _.isEqual(address1, address2);  //Just checking 
