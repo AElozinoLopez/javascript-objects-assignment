@@ -131,21 +131,26 @@ let programming = {
   jokes:"http://stackoverflow.com/questions/234075/what-is-your-best-programmer-joke"
 }
 
-// Adding The Word "GO" To Languages
+// i. Adding The Word "GO" To Languages
 programming.languages[3] = "Go";
 
-// Changing the diffulty to the value of 7
+// ii. Changing the diffulty to the value of 7
 programming.difficulty = 7;
 
-// Using the delete keyword
+// iii. Using the delete keyword
 delete programming.jokes
 
-// The commmand to add a new key 
+// iv. The commmand to add a new key 
 programming.isFun = "True";
 
-for (let key in programming) {
-  console.log(programming[key]);
+// v. Looping Over The Array
+for (let index of languages) {
+  console.log(languages);
 }
+
+// for (let key in programming) {
+//   console.log(programming[key]);
+// }
 
 
 
