@@ -140,6 +140,9 @@ programming.difficulty = 7;
 // Using the delete keyword
 delete programming.jokes
 
+// The commmand to add a new key 
+programming.isFun = "True";
+
 for (let key in programming) {
   console.log(programming[key]);
 }
