@@ -97,41 +97,43 @@ const address2 = new ShowAddress('3 Jubrila Street, Surulere', 'Lagos',  234567)
 
 // EXERCISE4
 
-const blogPost = {
-  title: "The Beauty of Flowers",
-  body: `FLowers come in variety of shapes, colors and sizes.
-          Their functions vary from improving the quality of
-          the air around us as well as detoxifying the environment,
-          to name a few. Examples include: Snake plant, Dunkin, Cudlin, African Bamble.`,
-  author: "Elozino Lopez",
-  views: 4000000,
-  comments : {
+// const blogPost = {
+//   title: "The Beauty of Flowers",
+//   body: `FLowers come in variety of shapes, colors and sizes.
+//           Their functions vary from improving the quality of
+//           the air around us as well as detoxifying the environment,
+//           to name a few. Examples include: Snake plant, Dunkin, Cudlin, African Bamble.`,
+//   author: "Elozino Lopez",
+//   views: 4000000,
+//   comments : {
     
-    author: "Shapson",
-    body: "Nice piece. Which flower detoxifies?",
-    // author: "Faruq",  // Has to be placed in another object
-    // body: "Bros, leave flower alone abeg, you no be oyinbo! lol..." // Has to be placed in another object
-  },
-  isLive: "False"
-}
+//     author: "Shapson",
+//     body: "Nice piece. Which flower detoxifies?",
+//     // author: "Faruq",  // Has to be placed in another object
+//     // body: "Bros, leave flower alone abeg, you no be oyinbo! lol..." // Has to be placed in another object
+//   },
+//   isLive: "False"
+// }
 
-for (let key in blogPost) {
-  console.log(blogPost[key]);
-}
+// for (let key in blogPost) {
+//   console.log(blogPost[key]);
+// }
 
 
 
 // EXERCISE 5
 
-// let programming = {
-//   languages: ["JavaScript", "Python", "Ruby"],
-//   isChallenging: true,
-//   isRewarding: true,
-//   difficulty: 8,
-//   jokes:"http://stackoverflow.com/questions/234075/what-is-your-best-programmer-joke"
-// }
+let programming = {
+  languages: ["JavaScript", "Python", "Ruby"],
+  isChallenging: true,
+  isRewarding: true,
+  difficulty: 8,
+  jokes:"http://stackoverflow.com/questions/234075/what-is-your-best-programmer-joke"
+}
 
-
+for (let key in programming) {
+  console.log(programming[key]);
+}
 
 
 
