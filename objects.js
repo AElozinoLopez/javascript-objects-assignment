@@ -144,13 +144,11 @@ delete programming.jokes
 programming.isFun = "True";
 
 // v. Looping Over The Array
-for (let Language of languages) {
-  console.log(languages)
-}
+// console.log(Object.keys(programming));
 
-// for (let key in programming) {
-//   console.log(programming[key]);
-// }
+for (let key in programming) {
+  console.log(programming.languages);
+}
 
 
 
