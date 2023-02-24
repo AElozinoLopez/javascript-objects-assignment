@@ -150,8 +150,13 @@ for (let key in programming) {
   // console.log(programming.languages);
 }
 
-
-// vi. To Console.log all the values
+// vi. To console.log the key
 for (let key in programming) {
-  console.log(programming[key]);
+  console.log(key)
+}
+
+
+// vii. To Console.log all the values
+for (let key in programming) {
+  // console.log(programming[key]);
 }
