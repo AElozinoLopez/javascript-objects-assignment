@@ -147,8 +147,11 @@ programming.isFun = "True";
 // console.log(Object.keys(programming));
 
 for (let key in programming) {
-  console.log(programming.languages);
+  // console.log(programming.languages);
 }
 
 
-
+// vi. To Console.log all the values
+for (let key in programming) {
+  console.log(programming[key]);
+}
